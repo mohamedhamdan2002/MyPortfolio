@@ -40,6 +40,12 @@ header .nav-link {
         margin-top: 8px;
         align-items: center;
     }
+    .nav-item {
+        border-bottom: 1px solid rgb(163, 163, 163);
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .nav-link {
         font-size: 1.25rem;
         font-weight: 500;
@@ -66,6 +72,7 @@ header .nav-link {
 /* start profile section */
 .profile {
     min-height: calc(100vh - 15vh);
+    margin-top: 25px;
 }
 .profile .text p:last-of-type {
     color: rgb(53, 53, 53);
