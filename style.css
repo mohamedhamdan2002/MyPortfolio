@@ -63,9 +63,9 @@ header .nav-link {
     }
     header .nav-link:hover,
     header .nav-link.active {
-    color: gray !important;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
+        color: gray !important;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
     }
 }
 /* end header */
@@ -152,6 +152,10 @@ header .nav-link {
 }
 .about .about-cards .card img {
     width: 50px;
+}
+.about .about-text p {
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 /* end  about section */
 /* start experience section */
